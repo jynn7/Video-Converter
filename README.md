@@ -67,6 +67,10 @@ make install
 ## Option 2: Download Precompiled FFmpeg Binaries
 - You can download precompiled binaries from https://ffmpeg.org/download.html or other trusted sources.
 - Make sure the FFmpeg executable is available in your system's PATH.
+- 
+## Option 3: Modified FFmpeg
+- For example, proceed to this project https://github.com/runner365/ffmpeg_rtmp_h265 and download the files.
+
   
 ### 4. Clone the Repository
 ```bash
