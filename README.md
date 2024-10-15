@@ -36,7 +36,7 @@ flutter pub get
 ### 3. Compile or Download FFmpeg
 Since FFmpeg binaries are not included, follow one of the options below:
 
-- ## Option 1: Compile FFmpeg
+## Option 1: Compile FFmpeg
 1. Download the FFmpeg source code from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).
 2. Configure FFmpeg using the following command:
 
@@ -62,11 +62,11 @@ make clean
 make -j8
 make install
 ```
-- ## Option 2: Download Precompiled FFmpeg Binaries
+## Option 2: Download Precompiled FFmpeg Binaries
 - You can download precompiled binaries from https://ffmpeg.org/download.html or other trusted sources.
 - Make sure the FFmpeg executable is available in your system's PATH.
 
-- ## Option 3: Modified FFmpeg to Support FLV over HEVC
+## Option 3: Modified FFmpeg to Support FLV over HEVC
 1. Download FFmpeg from [https://github.com/FFmpeg/FFmpeg/tree/release/5.0](https://github.com/FFmpeg/FFmpeg/tree/release/5.0).
 2. Download the modified files from [https://github.com/runner365/ffmpeg_rtmp_h265/tree/5.0](https://github.com/runner365/ffmpeg_rtmp_h265/tree/5.0).
 3. Copy the files downloaded in Step 2 to `FFmpeg/libavformat`.
