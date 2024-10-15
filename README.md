@@ -22,15 +22,9 @@ This project is a graphical user interface (GUI) for FFmpeg, designed to simplif
 - FFmpeg: Users must compile or download FFmpeg binaries (see instructions below).
 
 ## Getting Started
-
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/videoconverter.git
 cd videoconverter
-
-### 1. Clone the Repository
-
-```bash
-flutter pub get
 
