@@ -105,3 +105,7 @@ Since FFmpeg binaries are not included, follow one of the options below:
 - Manually create the following folder: `C:\Users\yourusername\AppData\Roaming\com.jynn7.videoconverter\videoconverter\ffmpeg`
 - Copy the generated `ffmpeg.exe` and all the generated `.dll` files to the folder: `C:\Users\yourusername\AppData\Roaming\com.jynn7.videoconverter\videoconverter\ffmpeg`
 
+### 5. Compile and produced videoconverter.exe
+```bash
+flutter build windows --target lib/feature/main/main.dart
+```
