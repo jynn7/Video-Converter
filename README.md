@@ -47,6 +47,38 @@ Since FFmpeg binaries are not included, follow one of the options below:
     --extra-ldflags="-lm -lz -llzma -lpthread" \
     --extra-libs="-lpthread -lm" \
     --enable-gpl \
+    --enable-libfreetype \
+    --enable-libmp3lame \
+    --enable-libx264 \
+    --enable-libx265 \
+    --enable-libvorbis \
+    --enable-libopus \
+    --enable-libvpx \
+    --enable-libass \
+    --enable-libsoxr \
+    --disable-shared \
+    --enable-static
+make clean
+make -j8
+make install
+```
+## Option 2: Download Precompiled FFmpeg Binaries
+- You can download precompiled binaries from https://ffmpeg.org/download.html or other trusted sources.
+- Make sure the FFmpeg executable is available in your system's PATH.
+- 
+## Option 3: Modified FFmpeg to support FLV over HEVC
+- Download the FFmpeg from https://github.com/FFmpeg/FFmpeg/tree/release/5.0.
+- Download modified files from https://github.com/runner365/ffmpeg_rtmp_h265/tree/5.0
+- Run configuration with MSYS2 MINGW64 in windows.
+- For Linux environment, please refer here https://trac.ffmpeg.org/wiki/CompilationGuide.
+
+```bash
+./configure \
+    --enable-cross-compile \
+    --pkg-config-flags="--static" \
+    --extra-ldflags="-lm -lz -llzma -lpthread" \
+    --extra-libs="-lpthread -lm" \
+    --enable-gpl \
     --enable-libfdk_aac \
     --enable-libfreetype \
     --enable-libmp3lame \
@@ -63,18 +95,5 @@ Since FFmpeg binaries are not included, follow one of the options below:
 make clean
 make -j8
 make install
-```
-## Option 2: Download Precompiled FFmpeg Binaries
-- You can download precompiled binaries from https://ffmpeg.org/download.html or other trusted sources.
-- Make sure the FFmpeg executable is available in your system's PATH.
-- 
-## Option 3: Modified FFmpeg
-- For example, proceed to this project https://github.com/runner365/ffmpeg_rtmp_h265 and download the files.
-
-  
-### 4. Clone the Repository
-```bash
-git clone https://github.com/yourusername/videoconverter.git
-cd videoconverter
 ```
 
