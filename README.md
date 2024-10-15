@@ -8,6 +8,7 @@ This project is a graphical user interface (GUI) for FFmpeg, designed to simplif
 - It is **not** intended for commercial use. This software is provided **solely for educational and research purposes**.
 - FFmpeg binaries are not included in this repository due to licensing restrictions.
 - Users are required to download or compile FFmpeg independently.
+- Use at your own risk: The author is not liable for any damage to personal devices or assets. Any issues or damages that arise are the user's responsibility.
   
 ## Features
 
