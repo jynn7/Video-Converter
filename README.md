@@ -35,41 +35,42 @@ flutter pub get
 
 ### 3. Compile or Download FFmpeg
 Since FFmpeg binaries are not included, follow one of the options below:
+
 ## Option 1: Compile FFmpeg
-- Download the FFmpeg source code from https://ffmpeg.org/download.html.
-- Configure FFmpeg using the following command:
+1. Download the FFmpeg source code from [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html).
+2. Configure FFmpeg using the following command:
 
 ```bash
-git clone https://github.com/yourusername/videoconverter.git
-cd videoconverter
+./configure \
+    --enable-cross-compile \
+    --pkg-config-flags="--static" \
+    --extra-ldflags="-lm -lz -llzma -lpthread" \
+    --extra-libs="-lpthread -lm" \
+    --enable-gpl \
+    --enable-libfdk_aac \
+    --enable-libfreetype \
+    --enable-libmp3lame \
+    --enable-libx264 \
+    --enable-libx265 \
+    --enable-libvorbis \
+    --enable-libopus \
+    --enable-libvpx \
+    --enable-libass \
+    --enable-libsoxr \
+    --enable-nonfree \
+    --disable-shared \
+    --enable-static
+make clean
+make -j8
+make install
 ```
+## Option 2: Download Precompiled FFmpeg Binaries
+- You can download precompiled binaries from https://ffmpeg.org/download.html or other trusted sources.
+- Make sure the FFmpeg executable is available in your system's PATH.
+  
 ### 4. Clone the Repository
 ```bash
 git clone https://github.com/yourusername/videoconverter.git
 cd videoconverter
 ```
-### 5. Clone the Repository
-```bash
-git clone https://github.com/yourusername/videoconverter.git
-cd videoconverter
-```
-### 6. Clone the Repository
-```bash
-git clone https://github.com/yourusername/videoconverter.git
-cd videoconverter
-```
-### 7. Clone the Repository
-```bash
-git clone https://github.com/yourusername/videoconverter.git
-cd videoconverter
-```
-### 8. Clone the Repository
-```bash
-git clone https://github.com/yourusername/videoconverter.git
-cd videoconverter
-```
-### 9. Clone the Repository
-```bash
-git clone https://github.com/yourusername/videoconverter.git
-cd videoconverter
-```
+
