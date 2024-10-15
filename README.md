@@ -23,10 +23,21 @@ This project is a graphical user interface (GUI) for FFmpeg, designed to simplif
 
 ## Getting Started
 ### 1. Clone the Repository
-
 ```bash
 git clone https://github.com/yourusername/videoconverter.git
 cd videoconverter
+```
+
+### 2. Clone the Repository
+### 3. Clone the Repository
+### 4. Clone the Repository
+### 5. Clone the Repository
+### 6. Clone the Repository
+### 7. Clone the Repository
+### 8. Clone the Repository
+### 9. Clone the Repository
+
+
 
 Getting Started
 1. Clone the Repository
