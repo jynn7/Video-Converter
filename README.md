@@ -112,7 +112,7 @@ flutter build windows --target lib/feature/main/main.dart
 
 ## Dependencies
 - **cupertino_icons**: iOS-style icons for the app.
-- [flutter_launcher_icons](https://pub.dev/packages/flutter_launcher_icons): To generate custom app launcher icons.
+- **flutter_launcher_icon**: To generate custom app launcher icons. [link](https://pub.dev/packages/flutter_launcher_icons)
 - **flutter_bloc**: State management solution.
 - **file_picker**: To pick files from the filesystem.
 - **path_provider**: To access commonly used locations on the filesystem.
