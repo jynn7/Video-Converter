@@ -2,6 +2,8 @@
 
 This project is a graphical user interface (GUI) for FFmpeg, designed to simplify video conversion tasks. The application is built using Flutter and is currently available for **Windows** only.
 
+![Alt Text](assets/pictures/video-converter-example.gif)
+
 ## Disclaimer
 
 - This project does **not** include any FFmpeg libraries or licenses for `acodec` or `vcodec` codecs.
