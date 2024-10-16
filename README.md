@@ -11,6 +11,7 @@ This project is a graphical user interface (GUI) for FFmpeg, designed to simplif
 - FFmpeg binaries are not included in this repository due to licensing restrictions.
 - Users are required to download or compile FFmpeg independently.
 - Use at your own risk: The author is not liable for any damage to personal devices or assets. Any issues or damages that arise are the user's responsibility.
+- The app is a basic example and may not receives any updates.
   
 ## Features
 
