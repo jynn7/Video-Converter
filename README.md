@@ -22,6 +22,9 @@ This project is a graphical user interface (GUI) for FFmpeg, designed to simplif
 - Windows operating system
 - FFmpeg: Users must compile or download FFmpeg binaries (see instructions below).
 
+## About the Project
+This project was developed to make it easier to convert video files, especially those encoded with modified FFmpeg, such as FLV over HEVC, into playable formats like MP4 in bulk. The application provides a user-friendly interface that simplifies the process, allowing users to quickly convert multiple video files with just a few clicks.
+
 ## Getting Started
 ### 1. Clone the Repository
 ```bash
